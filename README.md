@@ -5,8 +5,8 @@
 <code>cd config/redis_conf</code> then config your redis
 
 ## config your own youtube app key
-<code>cd spider <br>
-open youtube_search.py</code><br>
+<code>cd spider</code><br>
+<code>open youtube_search.py</code><br>
 then config your app key<br>
 you can get more detail from: https://developers.google.com/youtube
 
@@ -20,8 +20,6 @@ python youtube_search.py --word "your word"
 </code>
 
 Your search results will be stored in your redis database.
-
-and then downloader your youtube video
 
 **step 3**<br>
 <code>cd downloader <br>
